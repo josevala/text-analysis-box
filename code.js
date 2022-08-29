@@ -29,7 +29,7 @@ let result = {
   }
 let textInput = textArea.value;
   result.text = textInput;
- result.numCharacters = textInput.length;
+ result.numCharacters = textInput.trim().length;
  result.vowels = vowelCount(textInput);
 result.punctuation = grammar(textInput);
 let textFiltered = filterText(textInput);
