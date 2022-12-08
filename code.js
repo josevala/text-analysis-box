@@ -91,7 +91,7 @@ function grammar(vString){
 } 
 function filterText(vString){
   let textFiltered = vString.split(" ");
-  let characters = "abcdefghijklmnopqrstuvwxyz'ABCDEFGHIJKLMNOPQRTUVWXYZ";
+  let characters = "abcdefghijklmnopqrstuvwxyz'ABCDEFGHIJKLMNOPQRTUVWXYZ"
     let finalText = []
     for (let word of textFiltered){
       if(word !== ""){
